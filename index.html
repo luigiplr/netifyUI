@@ -16,7 +16,20 @@
 
 <body>
     <header>
+        <div class="controls win32">
+            <div class="close">
+                <i class="ion-ios-close-empty"></i>
+            </div>
+            <div class="toggle">
+                <i></i>
+                <i></i>
+            </div>
+            <div class="minimize">
+                <i></i>
+            </div>
+        </div>
         <h1>Netify Jump</h1>
+
     </header>
     <div class="main">
         <h1>Network Overview</h1>
@@ -29,17 +42,20 @@
             <span>Internet</span>
         </div>
         <div class="line vertical" style="margin-top: 8px; height: 15px; margin-bottom: 8px"></div>
-        <div class="pc">
-            <object type="image/svg+xml" data="images/Windows_logo_-_2012.svg"></object>
+        <div class="pc win32">
+            <object type="image/svg+xml" data="images/Windows_logo.svg"></object>
         </div>
         <div class="line horizontal left" style="width: 250px; margin-top: -25px">
             <div class="line curve left" style="">
             </div>
         </div>
         <div class="line horizontal right" style="width: 250px; margin-top: -40px;">
-            <div class="line curve right" style="">
+            <div class="line curve right ">
+
+                <div class="line vertical" style="height: 15px; top:20px; left: 10px"></div>
             </div>
         </div>
+
         <div class="status check" style="margin-top: 5px; right: 267px">
             <div class="check">
                 <div class="check-rip"></div>
@@ -47,12 +63,28 @@
                 <i class="ion-checkmark-round"></i>
             </div>
         </div>
-        <div class="line vertical" style="margin-top: 8px; height: 15px; margin-bottom: 8px; right: 267px"></div>
-        <div class="section" style="right: 265px; margin-top: 15px;">
+        <div class="status check" style="margin-top: -20px; left: 271px">
+            <div class="check">
+                <div class="check-rip"></div>
+                <div class="check-rip two"></div>
+                <i class="ion-checkmark-round"></i>
+            </div>
+        </div>
+
+        <div class="line vertical" style="margin-top: 10px; height: 15px; margin-bottom: 8px; right: 267px"></div>
+        <div class="section" style="right: 265px; margin-top: 15px; width: 300px;">
             <h2>Settings</h2>
 
 
         </div>
+
+        <div class="line vertical" style="margin-top: -69px; height: 15px; margin-bottom: 8px; left: 271px"></div>
+        <div class="section" style="left: 271px; margin-top: 15px; width: 250px;">
+            <h2>Wi-Fi</h2>
+
+
+        </div>
+
     </div>
 </body>
 
