@@ -1,3 +1,80 @@
-body{
-background: linear-gradient(142deg, rgb(11, 59, 80) 0%, rgb(12, 52, 69) 26%, rgb(11, 42, 56) 50%, rgb(11, 32, 40) 74%, rgb(11, 29, 37) 100%);
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: white;
+    height: 100vh;
+}
+
+header {
+    height: 30px;
+    background-color: #0097D6;
+    position: fixed;
+    width: 100vw;
+}
+
+header h1 {
+    text-align: center;
+    position: relative;
+    color: aliceblue;
+    font-size: 15px;
+    top: 7px;
+    font-weight: 300;
+}
+
+.main {
+    width: 100vw;
+    top: 30px;
+    position: fixed;
+    height: calc(100vh - 30px);
+    background: linear-gradient(142deg, rgb(11, 59, 80) 0%, rgb(12, 52, 69) 26%, rgb(11, 42, 56) 50%, rgb(11, 32, 40) 74%, rgb(11, 29, 37) 100%);
+}
+
+.main h1 {
+    text-align: center;
+    position: relative;
+    color: #435965;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.main .status {
+    width: 100px;
+    background-color: #1D3B49;
+    height: 20px;
+    border-radius: 10px;
+    top: 120px;
+    position: relative;
+    margin: auto;
+}
+.main .status i{
+    
+}
+.main .status span{
+    
+}
+
+.main .pc {
+    width: 80px;
+    background-color: #1D3B49;
+    height: 80px;
+    border-radius: 50%;
+    top: 140px;
+    position: relative;
+    margin: auto;
+}
+
+.main .pc object {
+    width: 60%;
+    position: relative;
+    margin: auto;
+    display: block;
+    top: 18px;
+    left: 1px;
+}
+
+.main .globe {
+    position: relative;
+    display: block;
+    top: 90px;
+    margin: auto;
 }
