@@ -3,6 +3,8 @@ body {
     font-weight: 200;
     color: white;
     height: 100vh;
+    overflow: none;
+    position: fixed;
 }
 
 header {
