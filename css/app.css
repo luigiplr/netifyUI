@@ -145,6 +145,11 @@ header h1 {
     float: right;
 }
 
+.main .line.curve.up {
+    transform: rotate(90deg);
+    top: -20px;
+}
+
 .main .line.horizontal {
     height: 1px;
     position: absolute;
