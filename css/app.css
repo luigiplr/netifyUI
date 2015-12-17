@@ -263,6 +263,14 @@ header h1 {
     left: 1px;
 }
 
+.main .jump {
+    position: relative;
+    display: block;
+    left: 250px;
+    top: -120px;
+    margin: auto;
+}
+
 .main .globe {
     position: relative;
     display: block;
